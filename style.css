@@ -1,0 +1,120 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+ body {
+     background-color: rgb(255, 234, 213);
+     font-family: 'Roboto', sans-serif;
+ }
+
+ .weather-container {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     display: flex;
+     height: 200px;
+     width: 400px;
+     transform: translate(-50%, -50%);
+     flex-wrap: wrap;
+     cursor: pointer;
+     border-radius: 20px;
+     box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+ }
+
+
+ .weather-container .temperature {
+     width: 100%;
+     font-size: 65px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .weather-container .condition {
+     font-size: 27px;
+     margin-left: 40%;
+ }
+
+ .weather-container .speed {
+     font-size: 20px;
+     margin-left: 30%;
+ }
+
+ .date {
+     width: 200px;
+     height: 100px;
+     border-radius: 10px;
+     font-size: large;
+     font-weight: 600;
+     margin: 270px 0 0 160px;
+     padding: 10px;
+     box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3),
+         0 17px 17px 0 rgba(0, 0, 0, 0.15);
+     color: black;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+
+
+ .weather-form {
+     position: absolute;
+     top: 42%;
+     left: 56%;
+     display: flex;
+     height: 300px;
+     width: 600px;
+     transform: translate(-50%, -50%);
+     border-radius: 10px;
+     border: 10px;
+ }
+
+ .text {
+     width: 155%;
+     padding: 10px;
+     border-radius: 10px;
+     background-color: rgb(245, 250, 248);
+     font-size: large;
+ }
+
+ .submit {
+     height: 39px;
+     width: 100px;
+     border-radius: 10px;
+     border-color: antiquewhite;
+     font-size: large;
+     margin-left: 145px;
+     background-color: rgb(255, 228, 196);
+     box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3),
+         0 13px 13px 0 rgba(0, 0, 0, 0.15);
+ }
+
+ .message {
+     font-size: large;
+     font-weight: 800;
+     position: absolute;
+     left: 44%;
+     top: 50%;
+
+ }
+
+ .place {
+     width: 200px;
+     height: 100px;
+     border-radius: 10px;
+     font-size: large;
+     font-weight: 600;
+     position: absolute;
+     right: 10%;
+     top: 37%;
+     padding: 10px;
+     box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3),
+         0 17px 17px 0 rgba(0, 0, 0, 0.15);
+     color: black;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+
+ }
